@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #070707;
+}
+.main{
+    background-color: rgb(9, 9, 9);
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    color: orangered;
+    font-size: 30px;
+    margin: 10px;
+}
+span{
+    color: #fff;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+
+    
+}
+nav a{
+    color: #fff8f8;
+    text-decoration: none;
+    padding:20px;
+    justify-content: space-between;
+   font-size: 20px;
+    display: inline-block;
+
+} 
+nav a:hover{
+color: orangered;
+text-decoration: underline;
+}
+#contact{
+    background-color: #f5efef;
+    color: rgb(6, 5, 5);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+
+    
+ 
+}
+#contact a{
+    color: #070707;
+    text-decoration: none;
+}
+.contant{
+    float: right;
+margin: 40px;
+
+  flex-direction: column;
+text-transform: capitalize;
+}
+
+h1{
+    font-size: 70px;
+    color: #fff;
+}
+.name{
+    color: orangered;
+}
+.name:hover{
+    background: linear-gradient(rgb(230, 18, 54),rgb(0, 183, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+p{
+    color: rgb(245, 243, 243);
+    font-size: 25px;
+}
+
+
+.exper{
+color: #fff;
+background-color: orangered;
+border-radius: 10px;
+border: none;
+   font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.exper:hover{
+    background-color: #fff;
+    color: orangered;
+    border: 1px solid black;
+}
+img{
+    border: none;
+    border-radius: 50%;
+ box-shadow: 2px 2px 20px 20px orangered;
+  position: absolute;
+    margin-left: 30px;
+     margin-top: 150px;
+     float: left;
+
+}
+

@@ -1,0 +1,17 @@
+body{
+    background:radial-gradient(rgb(246, 86, 174),rgb(0, 238, 255));
+background-size: cover;
+background-repeat: no-repeat;
+height: 90vh;
+text-transform: capitalize;
+
+
+}
+h1{
+   text-align: center;
+   padding: 90px;
+   margin: 70px;
+justify-content: center;
+font-size: 7rem;
+
+}
